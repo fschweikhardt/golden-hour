@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Golden Hour</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <img src="images/iceland-139h.jpg" alt="golden hour light" class="top">
+        <header>
+            <h1>Golden Hour</h1>
+            <p>when to meet & where to meet</p>
+            <p>the easy way to schedule photoshoots</p>
+        </header>
+        <hr>
+    <div class="group">
+        <form id="form" class="item">
+            <label for="city">City or Zip</label>
+            <input type="text" id="city" name="city" value="Portland" required>
+            <br>
+            <label for="state">State (Optional)</label>
+            <input type="text" id="state" name="state" value="OR">
+            <br>
+            <input type="submit" id="button" value="Let's Go!">
+        </form>
+        <div class="item">
+            <section id="results-time" class="hidden">
+                <div class="results-time">
+                </div>
+            </section>
+
+            <section id="results-location" class="hidden">
+                <div class="results-location">
+                </div>
+            </section>
+        </div>
+    </div>
+    <img src="images/iceland-136.jpg" alt="road at sunset" class="bottom">
+    <footer>
+        <p>Golden Hour concept and photos by Frank Schweikhardt.</p>
+        <p>All rights reserved.</p>
+    </footer>
+    <p id="js-error-message"></p>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="location.js"></script>
+</body>
+</html>
