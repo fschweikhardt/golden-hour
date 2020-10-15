@@ -2,7 +2,7 @@
 
 A photoshoot scheduling assistant app
 
-https://fschweikhardt.github.io/app-build-2/
+https://fschweikhardt.github.io/golden-hour/
 
 ![desktop1](https://user-images.githubusercontent.com/62970261/96067308-71e22b00-0e67-11eb-801e-f6e0935b1d1d.png)
 
